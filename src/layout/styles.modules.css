@@ -1,0 +1,229 @@
+/* App.css */
+.app-container {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .main-content {
+    width: 90%;
+    padding: 20px;
+    float: right;
+    border-left: 1px solid #D9D9D9;
+    right: 0;
+    position: absolute;
+  }
+  /* Sidebar.css */
+.sidebar {
+    width: 10%;
+    background-color: #fff;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+  }
+  
+  .avatar-container {
+    margin-bottom: 40px;
+  }
+  
+  .avatar {
+    width: 110px;
+    height: 110px;
+    border-radius: 10%;
+  }
+  .menu{
+    display: inline-grid;
+
+
+  }
+  .menu .icon {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #3f3f3f;
+  }
+  /* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .logo img{
+    width: 60%;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .logo p {
+    margin: 0;
+    color: #888;
+  }
+  
+  .search-container {
+    flex-grow: 1;
+    text-align: end;
+  }
+  
+  .search-bar {
+    width: 25%;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #A4AABA;
+    margin-right: 30px;
+  }
+  
+  .interaction .interaction-btn {
+    background-color: #fff;
+    color: white;
+    border: none;    
+    height: auto;
+  }
+  .interactionWithText p{
+    background-color: #fff;
+    text-align: left;
+    color: #000;
+    width: fit-content;
+    padding: 1px 6px;
+    margin: 0px;
+    position: relative;
+    top: 10px;
+    left: 20px;   
+
+  }
+  .interactionWithText{
+
+    display: grid;
+  }
+  .interactionWithText img{
+    width: 100%;
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+    border-radius: 20px 42px 42px 20px;
+    border: 1px solid #A4AABA;
+  }
+  .interaction{
+    text-align: end;
+    width: 20%;
+    position: relative;
+    bottom: 22px;
+    
+  }
+/* Table.css */
+.table-container {
+    margin-top: 20px;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .data-table th, .data-table td {
+    padding: 10px;
+    border-bottom: 0px solid #ddd;
+    
+  }
+  .data-table tr:hover {
+    background-color: #F7F8F7;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+  }
+  
+  .data-table th {
+    text-align: left;
+    color: #000;
+  }
+    
+
+    /* ChatBox.css */
+
+.chat-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.chat-toggle-btn {
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.chat-box {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  background-color: #36ABFF;
+  color: white;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-header h3 {
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.chat-body {
+  flex-grow: 1;
+  padding: 10px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-footer {
+  padding: 10px;
+  display: flex;
+}
+
+.chat-footer input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.chat-footer button {
+  background-color: #36ABFF;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}

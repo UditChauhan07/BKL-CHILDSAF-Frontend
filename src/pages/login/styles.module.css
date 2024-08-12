@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Bgcolor{
+    background-color: #DFF6FF;
+    
+}
+.InnerCeneter{
+    background-color: #fff;
+    border-radius: 25px;
+    width: 70%;
+    margin: auto;
+    padding: 2px;
+}
+.ImagesRadious{
+    border-radius: 25px;
+    padding: 0 !important;
+}
+.sideline {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	color:#707070;
+    margin: 15px 0;
+}
+button{
+height:50px;	
+}
+.sideline:before,
+.sideline:after {
+    content: '';
+    border-top: 1px solid #ebebeb;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.sideline:after {
+    margin: 0 0 0 20px;
+}
+.LoginText{
+    font-size: 75px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+.ForgetPassword a{
+    color: #000;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+
+}
+.LoginBtn{
+    background-color: #36ABFF !important;
+    border: unset !important;
+    font-size: 22px !important;
+    font-family: "Poppins", sans-serif;
+
+}
+.DontAccount{
+    color: #000 !important;
+}
+.DontAccount a{
+    color: #606785  !important;
+
+}
+.SocialIcon{
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.SocialIcon svg{
+    padding: 12px;
+    border: 1px solid #EBEDEC;
+    border-radius: 100px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .InnerCeneter{
+        
+        width: 95%;
+       
+    }
+  }
