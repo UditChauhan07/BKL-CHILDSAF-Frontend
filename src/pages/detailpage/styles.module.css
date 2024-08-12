@@ -7,3 +7,98 @@
     font-weight: 600;
 
 }
+
+.deatilDiv{
+    background-color: rgba(243, 234, 251, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+.profileDiv{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.profileName{
+    margin: auto;
+}
+.profileName h1{
+    font-size: 18px;
+    color: #868686;
+    font-weight: 400;
+   
+}
+.profileName h2{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.generatedDiv{
+    display: flex;
+    gap: 10px;
+}
+.generatedDiv h1{
+    font-size: 18px;
+    color: #868686;
+    font-weight: 400;
+}
+.generatedDiv h2{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+}
+.Inatraction2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Inatraction2 h1{
+    font-size: 18px;
+    color: #868686;
+    font-weight: 400;
+    margin: 0;
+}
+.Inatraction2 h2{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:18px
+}
+.post h1{
+    font-size: 18px;
+    color: #868686;
+    font-weight: 400;
+}
+.post h2{
+    font-size: 18px;
+    color: #9900ff;
+    font-weight: 400;
+    padding: 4px 14px;
+    border: 1px solid #9900ff;
+    border-radius: 5px;
+    background-color: #F0DFFF;
+}
+.status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status h1{
+    font-size: 18px;
+    color: #868686;
+    font-weight: 400;
+}
+.status h2{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+}

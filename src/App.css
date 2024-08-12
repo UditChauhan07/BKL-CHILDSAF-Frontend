@@ -132,3 +132,10 @@
   height: 50px;
 
 }
+hr {
+  margin: 0.2rem 0 !important;
+  color: #550686 !important;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: 1 !important;
+}
