@@ -227,3 +227,26 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.menu .icon2 {
+  cursor: pointer;  
+  color: #5BB5F6;
+}
+
+@media screen and (max-width: 600px) {
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+.search-bar {
+  width: 90%;
+  
+}
+.interaction {
+  text-align: end;
+  width: 100%;
+  position: relative;
+  bottom: 22px;
+}
+}
+

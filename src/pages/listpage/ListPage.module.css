@@ -1,0 +1,202 @@
+.TabDiv {
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid #D9D9D9;
+}
+.Table tbody  :hover{
+    background-color: #F7F8F7;
+    cursor: pointer;
+}
+.tab1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.TRhover{
+    border: #ffffff;
+}
+.table tr:hover{
+    background-color: #F7F8F7 !important;
+}
+.tabList{
+    white-space: nowrap;
+}
+.activeAll h2 {
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #DFF6FF;
+    border-radius: 6px;
+    padding: 4px 12px;
+}
+
+.activeAll {
+    color: #5BB5F6;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid #5bb5f6;
+}
+.activeHighPriority {
+    border-bottom: 2px solid #5bb5f6;
+}
+.activeAll h1{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+   
+}
+.inactive h1{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.inactive {
+    color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.inactive h2{
+    font-size: 15px;
+    background-color: #9b9b9b69;
+    border-radius: 6px;
+    padding: 4px 12px;
+}
+
+.activeHighPriority h1 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #5BB5F6;
+    cursor: pointer;
+}
+
+.tab1 h1 {
+    color: #000000;
+  
+}
+
+.tab1 h2 {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #DFF6FF;
+    border-radius: 6px;
+    padding: 4px 12px;
+}
+
+.tab2 h1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.theadTitle th {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.childName1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.childName1 span {
+    background-color: #E9F1F6;
+    border: 1px solid #4C8BB3;
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.childName2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.childName2 span {
+    background-color: #F9F3EB;
+    border: 1px solid #883E;
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.childName3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.childName3 span {
+    background-color: #F6E9F4;
+    border: 1px solid #B54AA5;
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.childName4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.childName4 span {
+    background-color: #E9F6EB;
+    border: 1px solid #4AB55A;
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.statusRed {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+}
+
+.statusOrange {
+    height: 10px;
+    width: 10px;
+    background-color: #F29914;
+    border-radius: 50px;
+}
+
+.statusGreen {
+    height: 10px;
+    width: 10px;
+    background-color: #4AB55A;
+    border-radius: 50px;
+}
+
+.statusDiv {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+  

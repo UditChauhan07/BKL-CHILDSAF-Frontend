@@ -1,11 +1,15 @@
 // App.js
 import React, { useState } from "react";
-
 import "./styles.modules.css";
 import { FaHome, FaList, FaSyncAlt } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 function Layout({ children }) {
   const Sidebar = () => {
+    const navigate = useNavigate();
+  const goTolist = () => {
+    navigate('/list');
+  };
     return (
       <div className="sidebar">
         <div className="avatar-container">
@@ -13,7 +17,7 @@ function Layout({ children }) {
         </div>
         <div className="menu">
           <FaHome className="icon" />
-          <FaList className="icon" />
+          <FaList onClick={goTolist} className="icon icon2" />
           <FaSyncAlt className="icon" />
         </div>
       </div>

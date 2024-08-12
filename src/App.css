@@ -123,3 +123,12 @@
   font-weight: 900;
   font-style: italic;
 }
+.table>:not(caption)>*>* {  
+  background-color: unset !important;
+  border-bottom-width: 0 !important;
+  
+}
+.form-control{
+  height: 50px;
+
+}

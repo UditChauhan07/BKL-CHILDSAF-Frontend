@@ -1,0 +1,9 @@
+.DetailImg img{
+    border-radius: 12px;
+}
+.QuickSummary{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+}
