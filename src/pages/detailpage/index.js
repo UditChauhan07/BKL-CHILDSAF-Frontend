@@ -26,7 +26,7 @@ const detail = () => {
                     </div>
                     <hr/>
                     <div className={styles.Inatraction2}>
-                    <h1>Inatraction</h1>
+                    <h1>Interaction</h1>
                     <h2>180</h2>
                     </div>
                 </div>

@@ -197,6 +197,14 @@
     gap: 5px;
 }
 
+@media screen and (max-width: 600px) {
+
+    .TabDiv h1{
+        font-size: 18px;
+
+    }
+}
+
 
 
   

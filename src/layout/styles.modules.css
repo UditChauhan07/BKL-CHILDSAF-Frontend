@@ -232,6 +232,28 @@
   color: #5BB5F6;
 }
 
+@media screen and (max-width: 768px) {
+  .main-content {
+    width: 85%;
+    
+}
+.sidebar {
+  width: 15%;  
+}
+.interaction {
+  
+  width: 45%;
+  bottom: 12px;
+  
+}
+.search-bar {
+  width: 70%;
+  
+}
+  
+}
+
+
 @media screen and (max-width: 600px) {
   .avatar {
     width: 50px;
@@ -242,11 +264,56 @@
   width: 90%;
   
 }
-.interaction {
-  text-align: end;
-  width: 100%;
+.interaction { 
+  width: 100%;  
+  bottom: 12px;
+}
+.interactionWithText img { 
+  padding: 0px 0px 0px 5px;
+  
+}
+.interactionWithText p { 
   position: relative;
-  bottom: 22px;
+  top: 8px;
+  left: 4px;
+  border-radius: 60px;
+  font-size: 14px;
 }
 }
+
+@media screen and (max-width: 400px) {
+
+.interactionWithText p { 
+  position: relative;
+  top: 8px;
+  left: 4px;
+  border-radius: 60px;
+  font-size: 12px;
+}
+.header {  
+  margin-bottom: 10px;
+  gap: 8px;
+}
+.ListPage  h1 {  
+  font-size: 20px;  
+}
+.search-bar {
+  width: 100%;
+  padding: 2px 8px;
+}
+.interaction {  
+  bottom: 10px;
+}
+.interactionWithText p {
+  
+  padding: 1px 1px;
+  margin: 0px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+}
+
+
 

@@ -2,14 +2,24 @@
 import React, { useState } from "react";
 import "./styles.modules.css";
 import { FaHome, FaList, FaSyncAlt } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
+import Modal from "./Modal";
 
 function Layout({ children }) {
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleOpenModal = () => {
+    setModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
   const Sidebar = () => {
     const navigate = useNavigate();
-  const goTolist = () => {
-    navigate('/list');
-  };
+    const goTolist = () => {
+      navigate("/list");
+    };
     return (
       <div className="sidebar">
         <div className="avatar-container">
@@ -23,11 +33,7 @@ function Layout({ children }) {
       </div>
     );
   };
-  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleChatBox = () => {
-    setIsOpen(!isOpen);
-  };
   const Header = () => {
     return (
       <header className="header">
@@ -38,35 +44,22 @@ function Layout({ children }) {
           <input type="text" placeholder="Search..." className="search-bar" />
         </div>
         <div className="interaction">
-          <button className="interaction-btn" >
-            {isOpen ? "Close Chat" : "Open Chat"}
-            
-            <div className="chat-container">             
-              {isOpen && (
-                <div className="chat-box">
-                  <div className="chat-header">
-                    <h3>Chat</h3>
-                    <button className="close-btn" onClick={toggleChatBox}>
-                      X
-                    </button>
-                  </div>
-                  <div className="chat-body">
-                    <p>Welcome to the chat! How can I help you?</p>
-                    {/* Add chat messages here */}
-                  </div>
-                  <div className="chat-footer">
-                    <input type="text" placeholder="Type a message..." />
-                    <button>Send</button>
-                  </div>
-                </div>
-              )}
-            </div>
+          <button onClick={handleOpenModal} className="interaction-btn">
             <div className="interactionWithText">
               <p>Interact with</p>
-              <img onClick={toggleChatBox} className="img-fluid" src="images/diaogXR-with-Icon.png" />
+              <img className="img-fluid" src="images/diaogXR-with-Icon.png" />
             </div>
           </button>
         </div>
+        <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+                <h2>Interact With</h2>
+                <iframe
+                    src="https://childrenservice.streamlit.app/~/+/#cs-gpt"
+                    title="Children Service"
+                    width="100%"
+                    height="700px">
+                </iframe>
+            </Modal>
       </header>
     );
   };
