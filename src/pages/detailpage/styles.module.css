@@ -16,6 +16,10 @@
     margin: 20px 0px;
     border-radius: 12px;
     padding: 10px 15px;
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 30px;
 }
 .profileDiv{
     padding: 10px;
